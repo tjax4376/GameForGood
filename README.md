@@ -18,7 +18,7 @@ A self-hosted volunteer compute network that enables distributed scientific comp
 ### Primary User Journey
 **Volunteer Client Workflow:**
 1. **Registration:** Client registers with coordinator service
-2. **Authentication:** Client authenticates using JWT tokens
+2. **Authentication:** Client authenticates using secure tokens
 3. **Work Unit Assignment:** Client requests and receives work unit
 4. **Processing:** Client processes work unit with periodic checkpoints
 5. **Result Upload:** Client uploads completed result
