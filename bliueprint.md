@@ -16,7 +16,7 @@
 
 #### Architecture Diagram
 ```mermaid
-flowchart LR
+flowchart
     subgraph Provider
         P1[Portal UI] --> P2[Signed URL Generation]
         P2 --> OB[Object Store (Encrypted Shards)]
