@@ -14,9 +14,9 @@
 - Scaffold client SDK stub (idle detection + minimal worker)
 - Design API contract for `/shards/claim`, `/shards/submit`, `/proofs/validate`
 
-#### Architecture Diagram
+### Architecture Diagram
 ```mermaid
-flowchart
+flowchart LR
     subgraph Provider
         P1[Portal UI] --> P2[Signed URL Generation]
         P2 --> OB[Object Store (Encrypted Shards)]
