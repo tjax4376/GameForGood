@@ -45,6 +45,7 @@ flowchart LR
 ```
 
 #### Processing Flow Diagram
+
 ```mermaid
 sequenceDiagram
     participant Provider as Provider Portal
